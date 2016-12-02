@@ -1,0 +1,41 @@
+.alertModal{
+  position: fixed;
+  display: none;
+  top: 30%;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  bottom: -1px;
+  left: 0;
+  z-index: 20001;
+}
+.alertModal .mycontent{
+  width: 70%;
+  margin: 0 auto;
+  padding: 10%;
+  border-radius: 5pt;
+  background: #fff;
+}
+.alertModal .mycontent button{
+  width: 40%;
+  margin-top: 10%;
+  color: #ffffff;
+  background-color: #28a3ef;
+  border: 1px solid #1299ec;
+  padding: 2px 14px;
+  line-height: 22px;
+  font-size: 14px;
+  border-radius: 5pt;
+}
+
+
+.shade{
+  background: rgba(82, 79, 79, 0.7);
+  display: none;
+  position: fixed;
+  top: -1px;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  z-index: 1000;
+}
